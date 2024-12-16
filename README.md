@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 # Mi Primera Aplicación Lista de cursos ReactJS 🚀
 
 #### Mi TO DO List con ReactJS" es una aplicación diseñada para facilitar la gestión de tareas e inscripciones en cursos de tecnologías populares como Node.js, ReactJS y Python. Esta herramienta ofrece una interfaz moderna y funcional que permite a los usuarios organizar listas de estudiantes inscritos en diferentes cursos, con la posibilidad de agregar, modificar y eliminar inscripciones de manera sencilla.
+=======
+# Mi Primera Aplicación de listas de cursos con ReactJS 🚀
+
+#### La lista de cursos con ReactJS" es una aplicación que ofrece una manera intuitiva y eficiente de gestionar tus tareas diarias. Desarrollada utilizando ReactJS, esta herramienta te permite organizar tus pendientes de manera estructurada y dinámica. Con una interfaz amigable y funcionalidades interactivas, puedes agregar, eliminar y actualizar tus tareas con facilidad. Además, gracias a la capacidad de ReactJS para crear componentes reutilizables, esta aplicación proporciona una experiencia fluida y personalizable para gestionar tu lista de quehaceres con eficacia y estilo.
+>>>>>>> 76c4cfddec66aa69c4d5372bcb0decb108896c3f
 
 El proyecto está desarrollado utilizando ReactJS junto con Vite, lo que asegura un rendimiento óptimo y una experiencia de desarrollo ágil. Además, se han incorporado funcionalidades interactivas para una experiencia de usuario eficiente y agradable. Gracias a la modularidad de ReactJS, la aplicación es escalable y reutilizable, lo que facilita futuras ampliaciones y mejoras.
 
 Características Principales
 
+<<<<<<< HEAD
 Gestión de Inscripciones: Permite añadir estudiantes a listas de inscripción para cursos específicos.
 
 Edición Dinámica: Las inscripciones se pueden modificar directamente desde la interfaz.
@@ -17,6 +24,19 @@ Interfaz Intuitiva: Diseño amigable y sencillo para facilitar la navegación y 
 Componentes Reutilizables: La aplicación está construida con componentes React, lo que asegura una estructura modular y eficiente.
 
 Alertas y Notificaciones: Gracias a la integración de la librería nextjs-toast-notify, se generan alertas informativas para notificar acciones como la creación, edición o eliminación de inscripciones.
+=======
+    Gestión de Inscripciones: Permite añadir estudiantes a listas de inscripción para cursos específicos.
+    
+    Edición Dinámica: Las inscripciones se pueden modificar directamente desde la interfaz.
+    
+    Eliminación de Inscripciones: Es posible borrar estudiantes de la lista de inscripciones con un solo clic.
+    
+    Interfaz Intuitiva: Diseño amigable y sencillo para facilitar la navegación y uso.
+    
+    Componentes Reutilizables: La aplicación está construida con componentes React, lo que asegura una estructura modular y eficiente.
+    
+    Alertas y Notificaciones: Gracias a la integración de la librería nextjs-toast-notify, se generan alertas informativas para notificar acciones como la creación, edición o eliminación de inscripciones.
+>>>>>>> 76c4cfddec66aa69c4d5372bcb0decb108896c3f
 
 Tecnologías Utilizadas
 
@@ -44,7 +64,15 @@ Tecnologías Utilizadas
     npm install
     npm run dev
 
+Uso de la Aplicación
 
+        Agregar Inscripciones: Utiliza el formulario para añadir un nuevo estudiante a la lista de inscripciones de un curso determinado.
+
+        Editar Inscripciones: Haz clic en el botón de edición para modificar los datos de un estudiante inscrito.
+
+        Eliminar Inscripciones: Haz clic en el botón de eliminar para quitar un estudiante de la lista.
+
+<<<<<<< HEAD
 
 Uso de la Aplicación
 
@@ -54,4 +82,6 @@ Uso de la Aplicación
 
         Eliminar Inscripciones: Haz clic en el botón de eliminar para quitar un estudiante de la lista.
 
+=======
+>>>>>>> 76c4cfddec66aa69c4d5372bcb0decb108896c3f
         Alertas Informativas: Observa las notificaciones que aparecen tras cada acción para confirmar que se ha completado correctamente.
