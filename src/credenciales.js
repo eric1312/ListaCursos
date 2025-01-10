@@ -13,7 +13,7 @@ const firebaseConfig = {
   storageBucket: "lista-de-cursos-ba510.firebasestorage.app",
   messagingSenderId: "509245500205",
   appId: "1:509245500205:web:b0d82782eeae9faa32c1a4",
-  measurementId: "G-LH7BDFWL30"
+  measurementId: "G-LH7BDFWL30",
 };
 
 // Initialize Firebase

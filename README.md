@@ -1,11 +1,6 @@
-
-# Mi Primera Aplicación Lista de cursos ReactJS 🚀
-
-#### Mi Primera Aplicación Lista de cursos ReactJS" es una aplicación diseñada para facilitar la gestión de tareas e inscripciones en cursos de tecnologías populares como Node.js, ReactJS y Python. Esta herramienta ofrece una interfaz moderna y funcional que permite a los usuarios organizar listas de estudiantes inscritos en diferentes cursos, con la posibilidad de agregar, modificar y eliminar inscripciones de manera sencilla.
-
 # Mi Primera Aplicación de listas de cursos con ReactJS 🚀
 
-#### La lista de cursos con ReactJS" es una aplicación que ofrece una manera intuitiva y eficiente de gestionar tus tareas diarias. Desarrollada utilizando ReactJS, esta herramienta te permite organizar tus pendientes de manera estructurada y dinámica. Con una interfaz amigable y funcionalidades interactivas, puedes agregar, eliminar y actualizar tus tareas con facilidad. Además, gracias a la capacidad de ReactJS para crear componentes reutilizables, esta aplicación proporciona una experiencia fluida y personalizable para gestionar tu lista de quehaceres con eficacia y estilo.
+La lista de cursos con ReactJS" es una aplicación que ofrece una manera intuitiva y eficiente de gestionar tus tareas diarias. Desarrollada utilizando ReactJS, esta herramienta te permite organizar tus pendientes de manera estructurada y dinámica. Con una interfaz amigable y funcionalidades interactivas, puedes agregar, eliminar y actualizar tus tareas con facilidad. Además, gracias a la capacidad de ReactJS para crear componentes reutilizables, esta aplicación proporciona una experiencia fluida y personalizable para gestionar tu lista de quehaceres con eficacia y estilo.
 
 
 El proyecto está desarrollado utilizando ReactJS junto con Vite, lo que asegura un rendimiento óptimo y una experiencia de desarrollo ágil. Además, se han incorporado funcionalidades interactivas para una experiencia de usuario eficiente y agradable. Gracias a la modularidad de ReactJS, la aplicación es escalable y reutilizable, lo que facilita futuras ampliaciones y mejoras.
