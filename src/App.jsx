@@ -1,48 +1,43 @@
 import "./App.css";
 import FormularioConLista from "./components/FormularioConLista.jsx";
-// import React, { useEffect, useState } from 'react';
-// import { getInscripciones, addInscripcion } from './api';
-//importandolos modulos de firebase
 import appFirabase from "./credenciales.js";
-import {getAuth, onAuthStateChanged} from "firebase/auth"
-const auth = getAuth(appFirabase)
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./components/context/AuthContext.js";
+import Login from "./components/login/Login.js";
+import PrivateRoute from "./components/PrivateRoute.jsx";
+import Home from "./pages/HomePage";
+// import { useState, useEffect } from "react";
 
-//importar nuestros componentes 
-import Login from "./components/login.jsx";
-import Home from "./components/Home.jsx";
-import { useState } from "react";
+const auth = getAuth(appFirabase); // Inicializamos Firebase Authentication
 
+const Home = () => <h1 className="text-center mt-10">Bienvenido a la App</h1>; // Componente Home
 
-function App() {
+function App() { // Componente App
+  const [usuario, setUsuario] = useState(null);
 
-  const [usuario, setUsuario] = useState(null)
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (usuarioFirebase) => {
+      if (usuarioFirebase) {
+        setUsuario(usuarioFirebase);
+      } else {
+        setUsuario(null);
+      }
+    });
 
-  onAuthStateChanged(auth, (usuarioFirebase) =>{
-    if (usuarioFirebase){
-      setUsuario(usuarioFirebase)
-    }
-    else
-    {
-        setUsuario(null)
-    }
-  })
-
-  return (
-    <div>
-      {usuario ? <Home correoUsuario = {usuario.email} /> : <Login/>}
-    </div>
-    
-  )
-
-
-
+    return () => unsubscribe();
+  }, []);
 
   return (
-     <>
-       <FormularioConLista />
-     </>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<PrivateRoute component={Home} />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
 
-
-export default App
+export default App;

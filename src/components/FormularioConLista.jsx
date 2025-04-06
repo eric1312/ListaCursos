@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Cursos from "./Cursos";
 import Titulo from "./Titulo";
-import LoginSingUp from "./login";
+import LoginSingUp from "./login/Login";
 
 // Importando la biblioteca nextjs-toast-notify
 import { toast } from "nextjs-toast-notify";
